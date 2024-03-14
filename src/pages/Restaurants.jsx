@@ -1,5 +1,6 @@
 import Header from "../component/Header";
 import Footer from "../component/Footer";
+import {Link} from "react-router-dom"
 
 function Restaurants() {
   return (
@@ -19,7 +20,7 @@ function Restaurants() {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">Taste of India</h5>
+                  <h5 className="card-title">The Golden Spoon</h5>
                   <p className="card-text">
                     'The Taste of India' is the brand slogan of AMUL which
                     stands for Anand Milk Union Limited.
@@ -27,6 +28,7 @@ function Restaurants() {
                   <p className="card-text">
                     <small className="text-muted">Rating: 4.7 | open now</small>
                   </p>
+                  <Link className="btn btn-primary" to="/restaurants/1">View More</Link>
                 </div>
               </div>
             </div>
@@ -44,7 +46,7 @@ function Restaurants() {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">Pizza Paradise</h5>
+                  <h5 className="card-title">Spice Junction</h5>
                   <p className="card-text">
                     Nice place to visit with your friends and family to have
                     unlimited starters and pizza, within budget.
@@ -52,6 +54,7 @@ function Restaurants() {
                   <p className="card-text">
                     <small className="text-muted">Rating: 4.5 | open now</small>
                   </p>
+                  <Link className="btn btn-primary" to="/restaurants/2">View More</Link>
                 </div>
               </div>
             </div>
